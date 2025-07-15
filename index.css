@@ -2,7 +2,11 @@
     padding: 0px;
     margin: 0px;
 }
-
+/* body{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+} */
 .nav {
     background-color: antiquewhite;
     display: flex;
@@ -29,7 +33,7 @@
 
 .hero {
     width: 100%;
-    height: 500px;
+    height: 600px;
     display: flex;
     object-fit: cover;
 }
@@ -50,13 +54,149 @@
     width: 100%;
     height: 100%;
 }
-.content{
+
+.content {
     font-size: 30px;
-   
+
     font-family: "Nothing You Could Do", cursive;
 }
-.pixel{
-    font-size: 22px;
-    font-family: "Nothing You Could Do",;
+
+.pixel {
+    font-size: 15px;
+    font-family: "Nothing You Could Do", ;
 }
 
+.Explore_button {
+    background-color: #1EC6B6;
+    width: fit-content;
+    height: fit-content;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+.Explore_button:hover {
+    background-color: orangered;
+}
+
+.pov {
+    color: aliceblue;
+    background-color: #040E27;
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    align-items: center;
+    gap: 30px;
+
+
+}
+
+.Search {
+    background-color: #FF4A52;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.Search:hover {
+    background-color: #1EC6B6;
+
+}
+.date{
+    
+    padding: 7px 15px;
+    border: 2px solid rgb(241, 241, 241);
+    border-radius: 5px;
+}
+.goo{
+    
+    padding: 7px 15px;
+    border: 2px solid rgb(241, 241, 241);
+    border-radius: 5px;
+}
+.travel{
+    
+    padding: 7px 15px;
+    border: 2px solid rgb(241, 241, 241);
+    border-radius: 5px;
+   
+}
+
+.place {
+    font-family: "Rubik", sans-serif;
+}
+
+.Destination {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    padding: 60PX;
+    font-family: "Rubik", sans-serif;
+    font-size: 30PX;
+    
+
+
+}
+
+.Popular {
+    font-size: 25px;
+}
+
+.alteration {
+    font-size: 15Px;
+    padding: 6PX;
+
+
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 20px;
+    gap:30px ;
+    
+    
+}
+.photo img{
+width: 100%;
+}
+
+.Subscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: aliceblue;
+    background-color: #040E27;
+    font-size: 16px;
+    padding:40px;
+    margin: 30px 0px;
+    align-items: center;
+}
+.Places{
+       display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    font-size: 20px;
+    gap: 30px;
+
+}
+.Places img{
+    width: 100%;
+}
+.usa{
+    padding: 10px;
+    background-color: bisque;
+    font-size: 20PX;
+}
+.us{
+    padding: 10px;
+    font-size: 15PX;
+}

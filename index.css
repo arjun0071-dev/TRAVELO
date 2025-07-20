@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
 }
+
 /* body{
     display: flex;
     flex-direction: column;
@@ -102,24 +103,27 @@
     background-color: #1EC6B6;
 
 }
-.date{
-    
+
+.date {
+
     padding: 7px 15px;
     border: 2px solid rgb(241, 241, 241);
     border-radius: 5px;
 }
-.goo{
-    
+
+.goo {
+
     padding: 7px 15px;
     border: 2px solid rgb(241, 241, 241);
     border-radius: 5px;
 }
-.travel{
-    
+
+.travel {
+
     padding: 7px 15px;
     border: 2px solid rgb(241, 241, 241);
     border-radius: 5px;
-   
+
 }
 
 .place {
@@ -129,12 +133,12 @@
 .Destination {
     display: flex;
     flex-direction: column;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     padding: 60PX;
     font-family: "Rubik", sans-serif;
     font-size: 30PX;
-    
+
 
 
 }
@@ -158,53 +162,59 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     font-size: 20px;
-    gap:30px ;
-    
-    
-}
-.photo img{
-width: 100%;
+    gap: 30px;
+
+
 }
 
-.Subscribe{
+.photo img {
+    width: 100%;
+}
+
+.Subscribe {
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: aliceblue;
     background-color: #040E27;
     font-size: 16px;
-    padding:40px;
+    padding: 40px;
     margin: 30px 0px;
     align-items: center;
 }
-.Places{
-       display: flex;
+
+.Places {
+    display: flex;
     justify-content: center;
     width: 90%;
     margin: 0px auto;
     display: grid;
-    grid-template-columns:1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     font-size: 20px;
     gap: 30px;
-    
+
 
 }
-.Places img{
+
+.Places img {
     width: 100%;
 }
-.usa{
+
+.usa {
     padding: 10px;
     background-color: bisque;
     font-size: 20PX;
-     font-family: "Rubik", sans-serif;
+    font-family: "Rubik", sans-serif;
 }
-.us{
+
+.us {
     padding: 10px;
     font-size: 15PX;
-    
+
 }
-.moreplace{
- 
+
+.moreplace {
+
     align-items: center;
     /* margin: 40PX; */
     background-color: #1EC6B6;
@@ -216,28 +226,31 @@ width: 100%;
     border-radius: 5px;
 
 }
- .moreplace:hover{
-    
-     background-color: orangered; 
+
+.moreplace:hover {
+
+    background-color: orangered;
 
 }
-.enjoy{
-position: relative;
+
+.enjoy {
+    position: relative;
 }
-.vid{
-     width: 100%;
+
+.vid {
+    width: 100%;
     height: 500px;
     display: flex;
     object-fit: cover;
 }
 
-.video{
+.video {
     position: absolute;
     display: flex;
     justify-content: center;
     width: 100%;
     height: 100%;
-   
+
     flex-direction: column;
     align-items: center;
     gap: 12px;
@@ -246,45 +259,53 @@ position: relative;
     font-size: 30px;
 
     font-family: "Nothing You Could Do", cursive;
-    
-    
+
+
 }
-.play svg path{
+
+.play svg path {
     color: blue;
-    
+
 }
-.bus{
+
+.bus {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 50px auto;
     width: 70%;
 }
-.bus image{
+
+.bus image {
     width: 100%;
 }
-.svg{
+
+.svg {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.soul{
+
+.soul {
     margin: 5px;
     font-size: 16px;
     width: 50%;
     text-align: center;
 }
-.Journey{
+
+.Journey {
     margin: 5px;
     font-size: 24px;
 }
-.testmonial_author{
+
+.testmonial_author {
     margin: 0px auto;
-    
+   
+
 }
 
-.testmonial{
-     display: flex;
+.testmonial {
+    display: flex;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -293,57 +314,68 @@ position: relative;
     height: 300px;
 
 }
-.work{
+
+.work {
     width: 30%;
     text-align: center;
     margin: 9px;
 }
-.trip{
+
+.trip {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 30px;
     margin: 40px;
 }
-.journey{
-width: 70%;
-font-size: 24px;
+
+.journey {
+    width: 70%;
+    font-size: 24px;
 
 }
-.journey:hover{
+
+.journey:hover {
     color: #FF4A52;
 }
-.oct{
+
+.oct {
     margin: 5px;
-   
+
 }
-.end{
-   margin: 50PX auto;
-        display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-width: 80%;
+
+.end {
+    margin: 50PX auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
 }
-.end image{
+
+.end image {
     width: 100%;
-}
-.inst{
     
-display: flex;
+}
+
+.inst {
+
+    display: flex;
     flex-direction: row;
     width: 20PX;
     height: 20PX;
     gap: 15px;
-    
+
 
 }
-.loc{
+
+.loc {
     width: 200px;
 }
-.footer{
+
+.footer {
     display: flex;
     flex-direction: row;
     /* justify-content: space-between; */
-    
+
     display: flex;
     justify-content: center;
     /* align-items: center; */
@@ -353,58 +385,281 @@ display: flex;
     width: 100%;
     /* height: 400px; */
     padding: 70px 0px;
-    
+
 }
-  .Popular-destination1{
+.Popular-destination{
+    font-size: 24px;
+  
+}
+.Popular-destination1 {
     display: flex;
     flex-direction: row;
     padding-top: 30px;
-    gap: 20px;
-   
-  } 
-  .dest_manus{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  } 
-  .Instagram55{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-   flex-direction: row;
-   gap: 20px;
-   width: 400px;
-    /* height: ; */
+  gap: 60px;
+   font-size: 16px;
 
-  }
-  .Company{
+}
+
+
+.dest_manus {
     display: flex;
     flex-direction: column;
     gap: 30px;
-  }
+}
+
+.Instagram55 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-direction: row;
+    gap: 20px;
+    width: 400px;
+    /* height: ; */
+
+}
+
+.Company {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 24px;
+}
+.home{
+    font-size: 16px;
+}
 
 
-  .Instagram55 img{
+.Instagram55 img {
     height: 60px;
     object-fit: cover;
     width: 100%;
-  }
-  .logoo{
-    
+}
+
+.logoo {
+
     display: flex;
     flex-direction: column;
     gap: 30px;
-  }
- 
+}
 
-  .logs_mru{
+
+.logs_mru {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     background-color: red;
     /* gap: 20px; */
     font-size: 30px;
-  }
-  .logo55{
+}
+
+.logo55 {
     height: 40px;
-    object-fit:contain ;
-  }
+    object-fit: contain;
+}
+
+@media (max-width:480px) {
+
+    .iteams {
+        display: none;
+     
+    }
+
+    .hero {
+        height: 400px;
+        
+    }
+
+    .pov {
+        display: grid;
+        padding: 20px;
+       
+
+
+    }
+
+    .Destination {
+
+
+        font-family: "Rubik", sans-serif;
+
+
+
+
+    }
+
+    .Popular {
+        font-size: 25px;
+        text-transform: capitalize;
+        
+    }
+
+    .alteration {
+        font-size: 11Px;
+        text-align: center;
+
+
+
+    }
+
+    .photo {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        margin: 0px auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        font-size: 20px;
+
+
+
+    }
+
+    .Subscribe {
+
+        color: aliceblue;
+
+        font-size: 16px;
+
+
+        align-items: center;
+        
+    }
+
+    .Subscribe2 {
+        font-size: 12Px;
+        text-align: center;
+        
+    }
+
+    .Places {
+
+
+        display: grid;
+        grid-template-columns: 1fr;
+
+
+
+
+    }
+
+    .bus {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: auto;
+        gap: 5px;
+        
+
+
+    }
+
+    .soul {
+
+        font-size: 16px;
+        width: auto;
+    }
+
+    .testmonial {
+
+   background-color: #FF4A52;
+        background-color: #F7FAFD;
+
+
+    }
+
+    .work {
+        width: auto;
+        text-align: center;
+
+        
+    }
+
+    .end {
+
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        width: 80%;
+        
+        
+        
+    }
+
+    .randomised img{
+        width: 100%;
+    }
+
+    .journey {
+        width: 70%;
+        font-size: 16px;
+
+
+    }
+
+    
+
+    .logoo {
+        display: flex;
+        flex-direction: column;
+        
+    }
+.Instagram55 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1 fr;
+    flex-direction: row;
+    gap: 10px;
+   
+    
+
+}
+.Instagram55 img {
+    height: 60px;
+    width: 100px;
+  
+    
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 40px;
+    color: #F7FAFD;
+    background-color: #040E27;
+    width: 100%;
+    /* height: 400px; */
+    padding: 70px 0px;
+
+}
+.Popular-destination1 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    gap: 60px;
+
+    
+}
+.date {
+
+    padding: 7px 110px;
+    border: 2px solid rgb(241, 241, 241);
+    border-radius: 5px;
+}
+
+.goo {
+
+    padding: 7px 110px;
+    border: 2px solid rgb(241, 241, 241);
+    border-radius: 5px;
+}
+
+.travel {
+
+    padding: 7px 110px;
+    border: 2px solid rgb(241, 241, 241);
+    border-radius: 5px;
+
+}
+
+}

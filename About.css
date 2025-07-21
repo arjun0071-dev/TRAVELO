@@ -1,0 +1,86 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.nav {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    padding: 9px;
+    align-items: center;
+
+}
+.images {
+    height: 50px;
+}
+
+.iteams {
+    display: flex;
+    font-size: 15px;
+    gap: 32px;
+}
+.herosection {
+    position: relative;
+}
+
+
+.hero {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    object-fit: cover;
+}
+
+.text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    justify-content: center;
+    /* background-color: red; */
+    font-size: 20px;
+    text-transform: capitalize;
+    color: white;
+    z-index: 1;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    font-size: 64px;
+
+    font-family: "Nothing You Could Do", cursive;
+}
+
+.pixel {
+    font-size: 15px;
+    font-family: "Nothing You Could Do", ;
+}
+
+.Explore_button {
+    background-color: #1EC6B6;
+    width: fit-content;
+    height: fit-content;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+.Explore_button:hover {
+    background-color: orangered;
+}
+.OurStory{
+    font-size: 55px;
+    margin: 35px 20%;
+}
+.story{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 25%;
+    width: 50%;
+    gap: 20px;
+    padding: 10PX;
+}

@@ -61,17 +61,7 @@
     font-family: "Nothing You Could Do", ;
 }
 
-.Explore_button {
-    background-color: #1EC6B6;
-    width: fit-content;
-    height: fit-content;
-    padding: 15px 30px;
-    border-radius: 5px;
-}
 
-.Explore_button:hover {
-    background-color: orangered;
-}
 .OurStory{
     font-size: 55px;
     margin: 35px 20%;
@@ -81,6 +71,432 @@
     flex-direction: column;
     margin: 0px 25%;
     width: 50%;
-    gap: 20px;
+    gap: 40px;
     padding: 10PX;
 }
+.ab{
+     
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   /* margin: 40PX 21%; */
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.ab img{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+.tour{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 55%;
+    color: red;
+    display: flex;
+   
+margin: 40PX 20%;
+font-size: 46px;
+    
+}
+.tour2{
+    font-size: 19px;
+    color: black;
+    margin: 20px auto;
+}
+.enjoy {
+    position: relative;
+}
+
+.vid {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    object-fit: cover;
+}
+
+.video {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    justify-content: center;
+    top: 0px;
+    font-size: 30px;
+
+    font-family: "Nothing You Could Do", cursive;
+
+
+}
+
+.play svg path {
+    color: blue;
+
+}
+.bus {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 50px auto;
+    width: 70%;
+}
+
+.bus image {
+    width: 100%;
+}
+
+.svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.soul {
+    margin: 5px;
+    font-size: 16px;
+    width: 50%;
+    text-align: center;
+}
+
+.Journey {
+    margin: 5px;
+    font-size: 24px;
+}
+
+.testmonial_author {
+    margin: 0px auto;
+   
+
+}
+
+.testmonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #F7FAFD;
+    height: 300px;
+
+}
+
+.work {
+    width: 30%;
+    text-align: center;
+    margin: 9px;
+}
+
+.trip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin: 40px;
+}
+
+.journey {
+    width: 70%;
+    font-size: 24px;
+
+}
+
+.journey:hover {
+    color: #FF4A52;
+}
+
+.oct {
+    margin: 5px;
+
+}
+
+.end {
+    margin: 50PX auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+}
+
+.end image {
+    width: 100%;
+    
+}
+
+.inst {
+
+    display: flex;
+    flex-direction: row;
+    width: 20PX;
+    height: 20PX;
+    gap: 15px;
+
+
+}
+
+.loc {
+    width: 200px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 40px;
+    color: #F7FAFD;
+    background-color: #040E27;
+    width: 100%;
+    /* height: 400px; */
+    padding: 70px 0px;
+
+}
+.Popular-destination{
+    font-size: 24px;
+  
+}
+.Popular-destination1 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+  gap: 60px;
+   font-size: 16px;
+
+}
+
+
+.dest_manus {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.Instagram55 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-direction: row;
+    gap: 20px;
+    width: 400px;
+    /* height: ; */
+
+}
+
+.Company {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 24px;
+}
+.home{
+    font-size: 16px;
+}
+
+
+.Instagram55 img {
+    height: 60px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.logoo {
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.logs_mru {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    /* gap: 20px; */
+    font-size: 30px;
+}
+
+.logo55 {
+    height: 40px;
+    object-fit: contain;
+    
+}
+ @media (max-width:480px) {
+
+    .iteams {
+        display: none;
+     
+    }
+
+    .hero {
+        height: 400px;
+        
+    }
+    .OurStory{
+    font-size: 55px;
+    width: fit-content;
+        
+}
+.story{
+    display: flex;
+    flex-direction: column; 
+    color: #7A838B;
+  margin: 0%;
+  width: 100%;
+gap: 20px;
+  width: fit-content;
+   
+}
+ .ab{
+     
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    
+    
+}
+.ab img{
+    width: fit-content;
+    width: 300px;
+    height: 200px;
+}
+.tour{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+   
+
+  .bus {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: auto;
+        gap: 5px;
+        
+
+
+        }
+    .soul {
+
+        font-size: 16px;
+        width: auto;
+    }
+
+    .testmonial {
+
+  
+        background-color: #F7FAFD;
+
+
+    }
+
+    .work {
+        width: auto;
+        text-align: center;
+
+        
+    }
+
+    .end {
+
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        width: 80%;
+        
+        
+        
+    }
+
+    .randomised img{
+        width: 100%;
+    }
+
+    .journey {
+        width: 70%;
+        font-size: 16px;
+
+
+    }
+
+    
+
+    .logoo {
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+.Instagram55 {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1 fr;
+    flex-direction: row;
+    gap: 10px;
+   
+    
+
+}
+.Instagram55 img {
+    height: 60px;
+    width: 100px;
+  
+    
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+   
+
+    display: flex;
+    justify-content: center;
+   
+    gap: 40px;
+    color: #F7FAFD;
+    background-color: #040E27;
+    width: 100%;
+    
+    padding: 70px 0px;
+
+}
+.Popular-destination1 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    gap: 60px;
+
+    
+}
+.date {
+  
+
+    padding: 7px 110px;
+    border: 2px solid rgb(241, 241, 241);
+    border-radius: 5px;
+}
+
+.goo {
+
+    padding: 7px 110px;
+    border: 2px solid rgb(241, 241, 241);
+    border-radius: 5px;
+}
+
+.travel {
+ 
+    padding: 7px 110px;
+    border: 2px solid rgb(241, 241, 241);
+    border-radius: 5px;
+
+}
+
+
+} 
